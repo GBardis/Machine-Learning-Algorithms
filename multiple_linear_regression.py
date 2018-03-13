@@ -38,11 +38,11 @@ y_pred = regressor.predict(X_test)
 
 
 # Building the optimal modal Backward Elimination
-# def create_prediction_list(X):
-#     prediction_list = []
-#     for i in range(0, len(X[1])):
-#         prediction_list.append(i)
-#     return prediction_list
+def create_prediction_list(X):
+    prediction_list = []
+    for i in range(0, len(X[1])):
+        prediction_list.append(i)
+    return prediction_list
 
 
 SL = 0.05
